@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Fare</title>
+</head>
+<body>
+
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+   <div><h1>{{ prediction_text }}</h1></div>
+
+    <img src="static/lobby.jpg" alt="flight" width="400" height="300">
+
+
+    <button class="button" onclick="window.location.href='/home'">
+        <span>click here to go to home</span></button>
+</body>
+</html>
